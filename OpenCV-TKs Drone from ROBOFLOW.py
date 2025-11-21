@@ -5,8 +5,8 @@ from datetime import datetime
 
 # Load model
 model = get_model(
-    model_id="people-detection-jhhbd-cjmcm/1",
-    api_key="D1BwF0yfvN2hcXJVeXvb"
+    model_id="Your Model ID",#-->  Replace with your Model ID
+    api_key="Your ROBOFLOW API"#--> Replace with your API key
 )
 
 annotator = sv.BoxAnnotator()
@@ -86,3 +86,4 @@ while True:
 
 cap.release()
 cv2.destroyAllWindows()
+
